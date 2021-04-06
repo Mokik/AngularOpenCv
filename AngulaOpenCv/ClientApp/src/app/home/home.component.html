@@ -1,0 +1,33 @@
+<h1>Hello, world!</h1>
+
+<div class="text-center">
+
+  <div [hidden]="hdnLoadCamera" class="alert alert-danger" role="alert">Il browser non supportata l'utilizzo della camera</div>
+
+  <div class="d-flex flex-column align-items-center" [hidden]="!hdnLoadCamera">
+    <div class="row mt-4 mb-4">
+      <div class="col" (click)="triggerSnapshot();" title="Foto" [hidden]="!hdnLoadCamera">
+        <button class="btn btn-warning btn-block">Foto</button>
+      </div>
+      <div class="col" (click)="stopCamera();" title="Foto" [hidden]="!hdnLoadCamera">
+        <button class="btn btn-danger btn-block">Stop</button>
+      </div>
+      <div class="col">
+        <button (click)="loadFile()" class="btn btn-warning">File</button>
+        <input #fileSelector (change)="onFileChange($event)" accept="image/*" style="display: none;" type="file">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col"><div><video #video class="vid" autoplay playsinline style="width:500px;"></video></div></div>
+      <div class="col"><div><canvas #canvas id="cnvsOpenCv" width="400" height="300"></canvas></div></div>
+
+      <div class="col"><div><canvas id="edgeOpenCv" class="vid" style="width:500px;height:500px;"></canvas></div></div>
+      <div class="col"><div><canvas id="grayBluredOpenCv" class="vid" style="width:500px;height:500px;"></canvas></div></div>
+    </div>
+
+    <div class="row">
+      <div class="col"><img class="card-img-top" [src]="imgDaUrlCam" /></div>
+    </div>
+  </div>
+</div>

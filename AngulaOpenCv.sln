@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngulaOpenCv", "AngulaOpenCv\AngulaOpenCv.csproj", "{61E21C1D-C07C-47C7-AFAF-D9C2BDEFAACE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61E21C1D-C07C-47C7-AFAF-D9C2BDEFAACE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61E21C1D-C07C-47C7-AFAF-D9C2BDEFAACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61E21C1D-C07C-47C7-AFAF-D9C2BDEFAACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61E21C1D-C07C-47C7-AFAF-D9C2BDEFAACE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AAB26FA0-AB15-4BB5-8C88-0B0900EA2B9E}
+	EndGlobalSection
+EndGlobal
