@@ -80,14 +80,8 @@ export class HomeComponent {
 
     this.openCVLoadResult = this.ngOpenCVService.isReady$;
     this.openCVLoadResult.subscribe({
-      next() {
-        that.startCamera();
-
-      },
-      error(msg) {
-        console.log('Error openCVLoadResult: ', msg);
-
-      }
+      next() { that.startCamera(); },
+      error(msg) { console.log('Error openCVLoadResult: ', msg); }
     });
   }
 
