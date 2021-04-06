@@ -449,8 +449,6 @@ export class HomeComponent {
     //contours_image.delete();
     //contours.delete();
     //hierarchy.delete();
-
-
   }
 
   elabFaceEyeImage(): void {
