@@ -1,2 +1,2 @@
 # AngularOpenCv
-Angula OpenCv (ver. 3.4)
+Angular OpenCv (ver. 3.4)
